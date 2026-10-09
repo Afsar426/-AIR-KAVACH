@@ -1,0 +1,76 @@
+{
+  "purpose": "Representative behavior test of existing saved model outputs.",
+  "input_rows": {
+    "air_quality": 8211,
+    "baseline_rows": 8211,
+    "sensitivity_rows": 17001,
+    "existing_events": 51
+  },
+  "test_case_count": 8,
+  "cases_found_in_data": 8,
+  "cases_missing_from_data": 0,
+  "representative_ml_flagged_cases": 4,
+  "flagged_case_event_overlap_count": 1,
+  "flagged_case_examples": [
+    {
+      "station": "Airport",
+      "timestamp": "2026-09-06 14:30:00+00:00",
+      "value": 261.5,
+      "anomaly_score_2pct": 0.14976650736010677,
+      "statistical_flag": true,
+      "flag_1pct": true,
+      "flag_2pct": true,
+      "flag_3pct": true,
+      "event_ids": "EVT-0005",
+      "reading_interpretation": "Very high reading; investigate as a pollution candidate"
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 23:45:00+00:00",
+      "value": 71.9,
+      "anomaly_score_2pct": 0.12574002279721064,
+      "statistical_flag": true,
+      "flag_1pct": true,
+      "flag_2pct": true,
+      "flag_3pct": true,
+      "event_ids": "",
+      "reading_interpretation": "Elevated reading; review temporal and weather context"
+    },
+    {
+      "station": "Regional Park",
+      "timestamp": "2026-09-24 12:00:00+00:00",
+      "value": 0.1,
+      "anomaly_score_2pct": 0.05117527499360763,
+      "statistical_flag": false,
+      "flag_1pct": true,
+      "flag_2pct": true,
+      "flag_3pct": true,
+      "event_ids": "",
+      "reading_interpretation": "Very low reading; inspect sensor/data quality before calling pollution"
+    },
+    {
+      "station": "Residency",
+      "timestamp": "2026-09-23 04:00:00+00:00",
+      "value": 3.0,
+      "anomaly_score_2pct": 0.06650520919743153,
+      "statistical_flag": false,
+      "flag_1pct": true,
+      "flag_2pct": true,
+      "flag_3pct": true,
+      "event_ids": "",
+      "reading_interpretation": "Very low reading; inspect sensor/data quality before calling pollution"
+    }
+  ],
+  "interpretation": [
+    "This verifies lookup and behavior of saved outputs on representative examples; it does not retrain the model.",
+    "No verified labels exist, so accuracy, precision, recall, and false-positive rate cannot be measured.",
+    "Isolation Forest detects unusual feature combinations, not pollution causation.",
+    "A low PM2.5 reading may be an anomaly but is not a pollution spike.",
+    "The source-attribution score is a separate heuristic layer, not a trained supervised ML model."
+  ],
+  "next_evaluation_needed": [
+    "Expert-reviewed labels for a sample of anomaly observations/events.",
+    "Sensor maintenance/quality metadata where available.",
+    "A held-out time period for testing if enough data becomes available."
+  ]
+}

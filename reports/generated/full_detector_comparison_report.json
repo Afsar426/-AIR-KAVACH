@@ -1,0 +1,137 @@
+{
+  "status": "DESCRIPTIVE_COMPARISON_COMPLETE",
+  "rows": {
+    "processed_air_quality": 8211,
+    "saved_baseline": 8211,
+    "joined_rows": 8211,
+    "rows_with_ml_scores": 5667,
+    "rows_without_ml_scores": 2544
+  },
+  "full_dataset_flag_counts_in_saved_baseline": {
+    "ml_flagged_all_rows": 115,
+    "statistical_flagged_all_rows": 370
+  },
+  "common_scored_rows_comparison": {
+    "both_flagged": 47,
+    "ml_only": 68,
+    "statistical_only": 201,
+    "neither_flagged": 5351,
+    "agreement_percent": 95.25,
+    "flagged_union": 316,
+    "jaccard_overlap_percent": 14.87,
+    "warning": "Agreement is not accuracy; the large neither-flagged group can inflate agreement."
+  },
+  "per_station": [
+    {
+      "station": "Airport",
+      "scored_rows": 579,
+      "both_flagged": 10,
+      "ml_only": 2,
+      "statistical_only": 13,
+      "neither_flagged": 554,
+      "ml_flagged": 12,
+      "statistical_flagged": 23,
+      "agreement_percent": 97.41
+    },
+    {
+      "station": "Maguda",
+      "scored_rows": 1620,
+      "both_flagged": 16,
+      "ml_only": 17,
+      "statistical_only": 80,
+      "neither_flagged": 1507,
+      "ml_flagged": 33,
+      "statistical_flagged": 96,
+      "agreement_percent": 94.01
+    },
+    {
+      "station": "Regional Park",
+      "scored_rows": 1383,
+      "both_flagged": 10,
+      "ml_only": 18,
+      "statistical_only": 21,
+      "neither_flagged": 1334,
+      "ml_flagged": 28,
+      "statistical_flagged": 31,
+      "agreement_percent": 97.18
+    },
+    {
+      "station": "Residency",
+      "scored_rows": 2085,
+      "both_flagged": 11,
+      "ml_only": 31,
+      "statistical_only": 87,
+      "neither_flagged": 1956,
+      "ml_flagged": 42,
+      "statistical_flagged": 98,
+      "agreement_percent": 94.34
+    }
+  ],
+  "disagreement_reading_groups": [
+    {
+      "agreement_group": "ml_only",
+      "reading_group": "35_to_below_100",
+      "observations": 44,
+      "mean_pm25": 44.91,
+      "median_pm25": 42.19,
+      "max_pm25": 75.9,
+      "event_overlap_count": 0
+    },
+    {
+      "agreement_group": "ml_only",
+      "reading_group": "5_to_below_35",
+      "observations": 1,
+      "mean_pm25": 5.73,
+      "median_pm25": 5.73,
+      "max_pm25": 5.73,
+      "event_overlap_count": 0
+    },
+    {
+      "agreement_group": "ml_only",
+      "reading_group": "very_low_below_5",
+      "observations": 23,
+      "mean_pm25": 2.43,
+      "median_pm25": 3.0,
+      "max_pm25": 3.6,
+      "event_overlap_count": 0
+    },
+    {
+      "agreement_group": "statistical_only",
+      "reading_group": "35_to_below_100",
+      "observations": 36,
+      "mean_pm25": 46.74,
+      "median_pm25": 38.25,
+      "max_pm25": 81.8,
+      "event_overlap_count": 29
+    },
+    {
+      "agreement_group": "statistical_only",
+      "reading_group": "5_to_below_35",
+      "observations": 165,
+      "mean_pm25": 24.02,
+      "median_pm25": 22.8,
+      "max_pm25": 34.6,
+      "event_overlap_count": 140
+    }
+  ],
+  "disagreement_summary": {
+    "total_disagreement_observations": 269,
+    "ml_only_observations_with_value_ge_35": 44,
+    "ml_only_observations_with_value_lt_5": 23,
+    "disagreement_observations_overlapping_existing_events": 169,
+    "review_episodes_grouped_with_30_min_gap": 67
+  },
+  "limitations": [
+    "No independently verified anomaly labels are available.",
+    "This compares two detectors on the same underlying sensor data; it is not independent validation.",
+    "The statistical_flag column reproduces the current statistical baseline saved in the ML output; it is not necessarily identical to the gap-aware diagnostic baseline.",
+    "ML-only does not mean false positive; statistical-only does not mean false negative.",
+    "The 35 and 5 \u00b5g/m\u00b3 cutoffs are descriptive review buckets only, not validated thresholds.",
+    "Event overlap is temporal comparison only, not proof of pollution causation or source identity."
+  ],
+  "outputs": [
+    "reports\\generated\\full_detector_comparison.csv",
+    "reports\\generated\\detector_disagreement_episodes.csv",
+    "reports\\generated\\full_detector_comparison_report.json"
+  ]
+}

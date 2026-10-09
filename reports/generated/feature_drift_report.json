@@ -1,0 +1,30 @@
+{
+  "input_rows": 8211,
+  "stations": [
+    "Airport",
+    "Maguda",
+    "Regional Park",
+    "Residency"
+  ],
+  "available_features": [
+    "value",
+    "past_mean",
+    "past_std",
+    "deviation",
+    "hour_sin",
+    "hour_cos",
+    "anomaly_score"
+  ],
+  "rows_by_split": {
+    "train": 5875,
+    "test": 1328,
+    "validation": 1008
+  },
+  "comparison_rows": 42,
+  "interpretation": "Feature distribution comparison only. Distribution differences do not prove their cause and do not establish model accuracy or pollution-source causation.",
+  "reports": {
+    "station_summary": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\feature_drift_station_report.csv",
+    "train_future_comparison": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\feature_drift_comparison.csv",
+    "feature_coverage": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\feature_drift_coverage.csv"
+  }
+}

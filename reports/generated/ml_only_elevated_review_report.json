@@ -1,0 +1,49 @@
+{
+  "purpose": "Contextual review only; not ground-truth model validation.",
+  "counts": {
+    "ml_scored_rows": 8211,
+    "ml_only_rows": 68,
+    "elevated_ml_only_ge_35": 44,
+    "low_ml_only_lt_5": 23,
+    "middle_ml_only_5_to_below_35": 1
+  },
+  "elevated": {
+    "station_counts": {
+      "Airport": 2,
+      "Maguda": 14,
+      "Regional Park": 4,
+      "Residency": 24
+    },
+    "event_overlap_count": 0,
+    "context_gap_over_15min_count": 0,
+    "wind_within_30min_count": 44,
+    "min_value": 35.8,
+    "median_value": 42.19,
+    "max_value": 75.9
+  },
+  "low_readings": {
+    "station_counts": {
+      "Maguda": 3,
+      "Regional Park": 14,
+      "Residency": 6
+    }
+  },
+  "thresholds": {
+    "elevated": "PM2.5 value >= 35 \u00b5g/m\u00b3",
+    "low_review": "PM2.5 value < 5 \u00b5g/m\u00b3",
+    "context_hours_each_side": 2,
+    "gap_warning_minutes": 15,
+    "wind_tolerance_minutes": 30
+  },
+  "warnings": [
+    "ML-only means ML flagged a row and the statistical baseline did not; it is not a confirmed true positive.",
+    "Low readings are candidates for data-quality review, not automatically sensor errors.",
+    "Event overlap uses existing statistical event windows and is not independent validation.",
+    "Wind alignment is contextual evidence, not proof of source causation."
+  ],
+  "outputs": [
+    "reports\\generated\\ml_only_elevated_review.csv",
+    "reports\\generated\\ml_only_low_reading_review.csv",
+    "reports\\generated\\ml_only_elevated_review_report.json"
+  ]
+}

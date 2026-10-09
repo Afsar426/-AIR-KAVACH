@@ -1,0 +1,87 @@
+{
+    "project": "AIR KAVACH",
+    "catalog_version": "1.0",
+    "generated_at_utc": "2026-10-09T04:56:08.157199+00:00",
+    "dataset_count": 6,
+    "important_note": "Catalog registration is not proof of dataset availability, data quality, source attribution, or factory responsibility.",
+    "datasets": [
+        {
+            "dataset_id": "REF-001",
+            "name": "OpenAQ",
+            "url": "https://openaq.org/",
+            "category": "Air Quality Observations",
+            "geographic_scope": "Global",
+            "potential_use": "Collect historical pollutant observations, identify pollution events, and expand monitoring-station coverage.",
+            "required_fields": "timestamp, station_id, latitude, longitude, pollutant, value, unit",
+            "limitations": "Station coverage, historical availability, sensor quality, and temporal overlap must be checked for each location.",
+            "verification_status": "existing_source_requires_expansion_audit",
+            "download_status": "partially_downloaded",
+            "priority": "high"
+        },
+        {
+            "dataset_id": "REF-002",
+            "name": "India Air Quality Database - XKDR Forum",
+            "url": "https://airquality.xkdr.org/",
+            "category": "Indian Air Quality Data",
+            "geographic_scope": "India",
+            "potential_use": "Investigate additional Indian monitoring records and possible historical observations for comparison with OpenAQ.",
+            "required_fields": "station, timestamp, pollutant, measurement, coordinates",
+            "limitations": "Actual fields, station coverage, historical period, access conditions, and overlap with the current Indore dataset must be verified.",
+            "verification_status": "pending_source_inspection",
+            "download_status": "not_downloaded",
+            "priority": "high"
+        },
+        {
+            "dataset_id": "REF-003",
+            "name": "ERA5 Reanalysis",
+            "url": "https://cds.climate.copernicus.eu/",
+            "category": "Meteorological Reanalysis",
+            "geographic_scope": "Global",
+            "potential_use": "Provide historical wind and weather fields for investigating pollution transport conditions.",
+            "required_fields": "timestamp, latitude, longitude, u10, v10",
+            "limitations": "Reanalysis is not a direct measurement at each factory. Spatial and temporal resolution, access requirements, and agreement with local observations must be assessed.",
+            "verification_status": "pending_access_and_coverage_check",
+            "download_status": "not_downloaded",
+            "priority": "high"
+        },
+        {
+            "dataset_id": "REF-004",
+            "name": "EDGAR Emissions Inventory",
+            "url": "https://edgar.jrc.ec.europa.eu/",
+            "category": "Emissions Inventory",
+            "geographic_scope": "Global",
+            "potential_use": "Provide regional emissions context and investigate whether relevant pollutants and industrial sectors are represented.",
+            "required_fields": "year, pollutant, sector, geographic_unit, emissions_value",
+            "limitations": "Inventory estimates do not automatically provide actual emissions from a named factory during a specific event.",
+            "verification_status": "pending_inventory_inspection",
+            "download_status": "not_downloaded",
+            "priority": "medium"
+        },
+        {
+            "dataset_id": "REF-005",
+            "name": "Published Indian PM2.5 Source Attribution Research",
+            "url": "https://acp.copernicus.org/articles/26/10533/2026/acp-26-10533-2026.html",
+            "category": "Research and Supplementary Data",
+            "geographic_scope": "India",
+            "potential_use": "Review source-attribution methodology and check for downloadable supplementary data that can support validation.",
+            "required_fields": "documented_source_labels, locations, timestamps, pollutant_measurements, methodology",
+            "limitations": "Published regional source attribution may not identify individual factories or overlap with our Indore events.",
+            "verification_status": "paper_and_supplementary_files_need_review",
+            "download_status": "not_downloaded",
+            "priority": "medium"
+        },
+        {
+            "dataset_id": "REF-006",
+            "name": "OpenStreetMap Industrial Facilities",
+            "url": "https://www.openstreetmap.org/",
+            "category": "Facility Locations",
+            "geographic_scope": "Global",
+            "potential_use": "Expand and cross-check mapped industrial facility locations and available facility classifications.",
+            "required_fields": "facility_id, name, latitude, longitude, industrial_tags",
+            "limitations": "Facility records can be incomplete or outdated. A mapped facility is not proof that it emitted pollution during an event.",
+            "verification_status": "existing_source_requires_quality_review",
+            "download_status": "partially_downloaded",
+            "priority": "medium"
+        }
+    ]
+}

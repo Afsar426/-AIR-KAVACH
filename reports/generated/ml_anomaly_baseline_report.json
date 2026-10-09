@@ -1,0 +1,50 @@
+{
+  "experiment": "exploratory_station_specific_isolation_forest",
+  "input_rows": 8211,
+  "eligible_rows_scored": 5667,
+  "contamination_parameter": 0.02,
+  "random_state": 42,
+  "stations": [
+    {
+      "station": "Airport",
+      "eligible_rows": 579,
+      "status": "trained",
+      "anomalies": 12,
+      "flagged_percent": 2.073
+    },
+    {
+      "station": "Maguda",
+      "eligible_rows": 1620,
+      "status": "trained",
+      "anomalies": 33,
+      "flagged_percent": 2.037
+    },
+    {
+      "station": "Regional Park",
+      "eligible_rows": 1383,
+      "status": "trained",
+      "anomalies": 28,
+      "flagged_percent": 2.025
+    },
+    {
+      "station": "Residency",
+      "eligible_rows": 2085,
+      "status": "trained",
+      "anomalies": 42,
+      "flagged_percent": 2.014
+    }
+  ],
+  "comparison": {
+    "rows_with_both_scores": 5667,
+    "flagged_by_both": 47,
+    "statistical_only": 201,
+    "isolation_forest_only": 68,
+    "neither_flagged": 5351,
+    "agreement_fraction": 0.9525322039880008,
+    "note": "Agreement is not accuracy. No verified anomaly labels are available."
+  },
+  "outputs": [
+    "data\\features\\ml_anomaly_scores.parquet",
+    "reports\\generated\\ml_anomaly_top_candidates.csv"
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "method": {
+    "stable_definition": "Observation flagged at contamination 0.01, 0.02 and 0.03.",
+    "episode_gap_minutes": 30,
+    "event_comparison": "Same-station time-interval overlap.",
+    "interpretation": "Descriptive review, not ground-truth validation or source attribution."
+  },
+  "stable_observation_count": 58,
+  "episode_count": 11,
+  "episodes_by_station": {
+    "Airport": 2,
+    "Maguda": 2,
+    "Regional Park": 4,
+    "Residency": 3
+  },
+  "episodes_by_group": {
+    "low_reading_review": 2,
+    "peak_100_plus": 2,
+    "peak_35_to_99_9": 7
+  },
+  "episodes_overlapping_existing_event": 6,
+  "episodes_without_temporal_overlap": 5,
+  "high_peak_episodes": [
+    {
+      "station": "Airport",
+      "episode_id": "ML-AIRPORT-001",
+      "start_time": "2026-09-02 14:45:00+00:00",
+      "end_time": "2026-09-02 15:00:00+00:00",
+      "anomaly_observations": 2,
+      "peak_pm25": 125.9,
+      "min_pm25": 125.9,
+      "mean_pm25": 125.9,
+      "max_anomaly_score": 0.058603,
+      "any_existing_event_overlap": true,
+      "matched_event_ids": "EVT-0002",
+      "duration_minutes": 15.0,
+      "episode_group": "peak_100_plus"
+    },
+    {
+      "station": "Airport",
+      "episode_id": "ML-AIRPORT-002",
+      "start_time": "2026-09-06 14:15:00+00:00",
+      "end_time": "2026-09-06 15:00:00+00:00",
+      "anomaly_observations": 4,
+      "peak_pm25": 261.5,
+      "min_pm25": 215.9,
+      "mean_pm25": 250.1,
+      "max_anomaly_score": 0.166433,
+      "any_existing_event_overlap": true,
+      "matched_event_ids": "EVT-0005",
+      "duration_minutes": 45.0,
+      "episode_group": "peak_100_plus"
+    }
+  ],
+  "limitations": [
+    "Episode grouping is an operational review rule, not a validated event segmentation model.",
+    "A stable ML anomaly can be a low reading or sensor/data anomaly.",
+    "Overlap with the statistical detector is not independent validation because both use the same sensor dataset.",
+    "Do not infer a factory source from anomaly or event overlap."
+  ]
+}

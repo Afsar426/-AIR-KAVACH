@@ -1,0 +1,47 @@
+{
+  "project": "AIR KAVACH",
+  "dataset": "XKDR Indore Daily Measurements 2024",
+  "rows": 5691,
+  "unique_stations": 5,
+  "unique_pollutants": 4,
+  "unique_units": 1,
+  "duplicate_key_rows": 0,
+  "missing_values_by_column": {
+    "station_id": 0,
+    "parameter_name": 0,
+    "unit": 0,
+    "period_start": 0,
+    "mean": 0,
+    "min": 0,
+    "max": 0,
+    "n": 0,
+    "period_start_ist": 0,
+    "period_start_utc": 0,
+    "station_name": 0
+  },
+  "range_checks": {
+    "negative_mean_rows": 0,
+    "negative_min_rows": 0,
+    "negative_max_rows": 0,
+    "min_mean_max_order_violations": 0,
+    "negative_sample_count_rows": 0,
+    "missing_mean_rows": 0,
+    "missing_min_rows": 0,
+    "missing_max_rows": 0,
+    "missing_sample_count_rows": 0
+  },
+  "timestamp_summary": {
+    "timestamp_interpretation": "XKDR period_start interpreted as IST wall-clock time based on published database metadata.",
+    "first_date_ist": "2024-01-01 00:00:00",
+    "last_date_ist": "2024-12-31 00:00:00",
+    "first_timestamp_utc": "2023-12-31 18:30:00+00:00",
+    "last_timestamp_utc": "2024-12-30 18:30:00+00:00",
+    "rows_with_unparseable_timestamps": 0
+  },
+  "limitations": [
+    "Daily aggregate data cannot validate individual 15-minute events.",
+    "Calendar coverage does not guarantee valid measurements on every day.",
+    "Missing records must not be interpreted as zero pollution.",
+    "Data quality checks do not establish factory-level source attribution."
+  ]
+}

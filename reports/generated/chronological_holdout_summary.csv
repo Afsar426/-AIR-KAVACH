@@ -1,0 +1,11 @@
+split,station,scored_observations,flagged_observations,flag_rate_percent,mean_pm25,mean_anomaly_score,max_pm25
+test,Maguda,380,105,27.632,22.579,-0.033211,71.9
+test,Regional Park,275,65,23.636,17.669,-0.048192,42.6
+test,Residency,332,27,8.133,20.724,-0.079844,36.59
+train,Airport,579,12,2.073,32.205,-0.158913,261.5
+train,Maguda,1024,21,2.051,14.231,-0.125133,36.6
+train,Regional Park,818,17,2.078,12.341,-0.104459,29.81
+train,Residency,1483,30,2.023,16.921,-0.097372,42.1
+validation,Maguda,216,74,34.259,20.526,-0.05313,43.9
+validation,Regional Park,290,184,63.448,18.86,-0.010107,37.9
+validation,Residency,270,62,22.963,25.851,-0.033388,43.9

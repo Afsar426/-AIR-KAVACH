@@ -1,0 +1,264 @@
+{
+  "purpose": "Descriptive review of stable and sensitivity-dependent ML anomalies.",
+  "input_observations_scored_at_2pct": 5667,
+  "stable_all_levels_count": 58,
+  "flagged_any_level_count": 172,
+  "stable_by_station": {
+    "Residency": 21,
+    "Maguda": 17,
+    "Regional Park": 14,
+    "Airport": 6
+  },
+  "stable_reading_groups": {
+    "elevated_35_to_99_9": 44,
+    "very_low_below_5": 7,
+    "very_high_100_plus": 6,
+    "other_5_to_34_9": 1
+  },
+  "stable_event_overlap_count": 24,
+  "stable_event_nonoverlap_count": 34,
+  "all_flagged_event_overlap_count": 50,
+  "all_flagged_event_nonoverlap_count": 122,
+  "station_summary_for_flagged_observations": [
+    {
+      "station": "Airport",
+      "stable_all_levels": false,
+      "observations": 12,
+      "mean_pm25": 80.89,
+      "median_pm25": 78.85,
+      "max_pm25": 125.9,
+      "event_overlap_count": 8
+    },
+    {
+      "station": "Airport",
+      "stable_all_levels": true,
+      "observations": 6,
+      "mean_pm25": 208.7,
+      "median_pm25": 238.7,
+      "max_pm25": 261.5,
+      "event_overlap_count": 6
+    },
+    {
+      "station": "Maguda",
+      "stable_all_levels": false,
+      "observations": 32,
+      "mean_pm25": 33.51,
+      "median_pm25": 38.98,
+      "max_pm25": 48.9,
+      "event_overlap_count": 8
+    },
+    {
+      "station": "Maguda",
+      "stable_all_levels": true,
+      "observations": 17,
+      "mean_pm25": 55.25,
+      "median_pm25": 53.5,
+      "max_pm25": 71.9,
+      "event_overlap_count": 7
+    },
+    {
+      "station": "Regional Park",
+      "stable_all_levels": false,
+      "observations": 28,
+      "mean_pm25": 14.0,
+      "median_pm25": 3.6,
+      "max_pm25": 37.9,
+      "event_overlap_count": 0
+    },
+    {
+      "station": "Regional Park",
+      "stable_all_levels": true,
+      "observations": 14,
+      "mean_pm25": 29.84,
+      "median_pm25": 41.64,
+      "max_pm25": 42.6,
+      "event_overlap_count": 8
+    },
+    {
+      "station": "Residency",
+      "stable_all_levels": false,
+      "observations": 42,
+      "mean_pm25": 32.46,
+      "median_pm25": 36.17,
+      "max_pm25": 43.5,
+      "event_overlap_count": 10
+    },
+    {
+      "station": "Residency",
+      "stable_all_levels": true,
+      "observations": 21,
+      "mean_pm25": 34.56,
+      "median_pm25": 42.0,
+      "max_pm25": 43.9,
+      "event_overlap_count": 3
+    }
+  ],
+  "stable_examples_highest_score": [
+    {
+      "station": "Airport",
+      "timestamp": "2026-09-06 15:00:00+00:00",
+      "value": 261.5,
+      "anomaly_score": 0.16643262476863363,
+      "event_overlap": true,
+      "matched_event_ids": "EVT-0005"
+    },
+    {
+      "station": "Airport",
+      "timestamp": "2026-09-06 14:45:00+00:00",
+      "value": 261.5,
+      "anomaly_score": 0.16321329060473755,
+      "event_overlap": true,
+      "matched_event_ids": "EVT-0005"
+    },
+    {
+      "station": "Airport",
+      "timestamp": "2026-09-06 14:30:00+00:00",
+      "value": 261.5,
+      "anomaly_score": 0.14976650736010677,
+      "event_overlap": true,
+      "matched_event_ids": "EVT-0005"
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 23:45:00+00:00",
+      "value": 71.9,
+      "anomaly_score": 0.12574002279721064,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 23:30:00+00:00",
+      "value": 71.9,
+      "anomaly_score": 0.12507509409241968,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Airport",
+      "timestamp": "2026-09-06 14:15:00+00:00",
+      "value": 215.9,
+      "anomaly_score": 0.12328823334535899,
+      "event_overlap": true,
+      "matched_event_ids": "EVT-0005"
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 23:15:00+00:00",
+      "value": 65.67,
+      "anomaly_score": 0.11543742047911076,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Residency",
+      "timestamp": "2026-09-23 04:00:00+00:00",
+      "value": 3.0,
+      "anomaly_score": 0.06650520919743153,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 23:00:00+00:00",
+      "value": 53.2,
+      "anomaly_score": 0.06542896835037182,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Residency",
+      "timestamp": "2026-09-23 03:45:00+00:00",
+      "value": 3.0,
+      "anomaly_score": 0.06453420408964639,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 22:45:00+00:00",
+      "value": 53.2,
+      "anomaly_score": 0.06384233038838472,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 21:45:00+00:00",
+      "value": 53.6,
+      "anomaly_score": 0.06379420587717133,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 22:00:00+00:00",
+      "value": 53.6,
+      "anomaly_score": 0.06283153512908046,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Residency",
+      "timestamp": "2026-09-23 03:30:00+00:00",
+      "value": 3.0,
+      "anomaly_score": 0.06210470790721867,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 21:30:00+00:00",
+      "value": 53.6,
+      "anomaly_score": 0.060991187213915166,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 22:15:00+00:00",
+      "value": 53.33,
+      "anomaly_score": 0.06067736090031017,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 22:30:00+00:00",
+      "value": 53.2,
+      "anomaly_score": 0.05984858305064167,
+      "event_overlap": false,
+      "matched_event_ids": ""
+    },
+    {
+      "station": "Airport",
+      "timestamp": "2026-09-02 15:00:00+00:00",
+      "value": 125.9,
+      "anomaly_score": 0.058603086964824636,
+      "event_overlap": true,
+      "matched_event_ids": "EVT-0002"
+    },
+    {
+      "station": "Regional Park",
+      "timestamp": "2026-09-30 17:00:00+00:00",
+      "value": 42.6,
+      "anomaly_score": 0.056234836976240654,
+      "event_overlap": true,
+      "matched_event_ids": "EVT-0035"
+    },
+    {
+      "station": "Maguda",
+      "timestamp": "2026-09-30 21:15:00+00:00",
+      "value": 53.57,
+      "anomaly_score": 0.05511626005921755,
+      "event_overlap": true,
+      "matched_event_ids": "EVT-0025"
+    }
+  ],
+  "limitations": [
+    "Event overlap is not ground truth because events were created by another heuristic detector.",
+    "Stable anomaly means stable only across the tested 1%, 2%, and 3% settings.",
+    "Low readings can be anomalies and must not automatically be treated as pollution spikes.",
+    "No source attribution or causation is established by this review."
+  ]
+}

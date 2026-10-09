@@ -1,0 +1,71 @@
+station,split,feature,total_rows,valid_rows,missing_rows,missing_percent
+Airport,train,value,951,951,0,0.0
+Airport,train,past_mean,951,579,372,39.11671924290221
+Airport,train,past_std,951,579,372,39.11671924290221
+Airport,train,deviation,951,579,372,39.11671924290221
+Airport,train,hour_sin,951,951,0,0.0
+Airport,train,hour_cos,951,951,0,0.0
+Airport,train,anomaly_score,951,579,372,39.11671924290221
+Maguda,test,value,454,454,0,0.0
+Maguda,test,past_mean,454,380,74,16.299559471365637
+Maguda,test,past_std,454,380,74,16.299559471365637
+Maguda,test,deviation,454,380,74,16.299559471365637
+Maguda,test,hour_sin,454,454,0,0.0
+Maguda,test,hour_cos,454,454,0,0.0
+Maguda,test,anomaly_score,454,380,74,16.299559471365637
+Maguda,train,value,1345,1345,0,0.0
+Maguda,train,past_mean,1345,1024,321,23.866171003717472
+Maguda,train,past_std,1345,1024,321,23.866171003717472
+Maguda,train,deviation,1345,1024,321,23.866171003717472
+Maguda,train,hour_sin,1345,1345,0,0.0
+Maguda,train,hour_cos,1345,1345,0,0.0
+Maguda,train,anomaly_score,1345,1024,321,23.866171003717472
+Maguda,validation,value,265,265,0,0.0
+Maguda,validation,past_mean,265,216,49,18.49056603773585
+Maguda,validation,past_std,265,216,49,18.49056603773585
+Maguda,validation,deviation,265,216,49,18.49056603773585
+Maguda,validation,hour_sin,265,265,0,0.0
+Maguda,validation,hour_cos,265,265,0,0.0
+Maguda,validation,anomaly_score,265,216,49,18.49056603773585
+Regional Park,test,value,421,421,0,0.0
+Regional Park,test,past_mean,421,275,146,34.679334916864605
+Regional Park,test,past_std,421,275,146,34.679334916864605
+Regional Park,test,deviation,421,275,146,34.679334916864605
+Regional Park,test,hour_sin,421,421,0,0.0
+Regional Park,test,hour_cos,421,421,0,0.0
+Regional Park,test,anomaly_score,421,275,146,34.679334916864605
+Regional Park,train,value,1778,1778,0,0.0
+Regional Park,train,past_mean,1778,818,960,53.993250843644546
+Regional Park,train,past_std,1778,818,960,53.993250843644546
+Regional Park,train,deviation,1778,818,960,53.993250843644546
+Regional Park,train,hour_sin,1778,1778,0,0.0
+Regional Park,train,hour_cos,1778,1778,0,0.0
+Regional Park,train,anomaly_score,1778,818,960,53.993250843644546
+Regional Park,validation,value,372,372,0,0.0
+Regional Park,validation,past_mean,372,290,82,22.043010752688172
+Regional Park,validation,past_std,372,290,82,22.043010752688172
+Regional Park,validation,deviation,372,290,82,22.043010752688172
+Regional Park,validation,hour_sin,372,372,0,0.0
+Regional Park,validation,hour_cos,372,372,0,0.0
+Regional Park,validation,anomaly_score,372,290,82,22.043010752688172
+Residency,test,value,453,453,0,0.0
+Residency,test,past_mean,453,332,121,26.71081677704194
+Residency,test,past_std,453,332,121,26.71081677704194
+Residency,test,deviation,453,332,121,26.71081677704194
+Residency,test,hour_sin,453,453,0,0.0
+Residency,test,hour_cos,453,453,0,0.0
+Residency,test,anomaly_score,453,332,121,26.71081677704194
+Residency,train,value,1801,1801,0,0.0
+Residency,train,past_mean,1801,1483,318,17.65685730149917
+Residency,train,past_std,1801,1483,318,17.65685730149917
+Residency,train,deviation,1801,1483,318,17.65685730149917
+Residency,train,hour_sin,1801,1801,0,0.0
+Residency,train,hour_cos,1801,1801,0,0.0
+Residency,train,anomaly_score,1801,1483,318,17.65685730149917
+Residency,validation,value,371,371,0,0.0
+Residency,validation,past_mean,371,270,101,27.22371967654987
+Residency,validation,past_std,371,270,101,27.22371967654987
+Residency,validation,deviation,371,270,101,27.22371967654987
+Residency,validation,hour_sin,371,371,0,0.0
+Residency,validation,hour_cos,371,371,0,0.0
+Residency,validation,anomaly_score,371,270,101,27.22371967654987

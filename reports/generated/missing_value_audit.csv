@@ -1,0 +1,7 @@
+file,column,missing_count,row_count,missing_percent
+attribution,wind_speed_mean_mps,468,1326,35.29
+confidence,wind_speed_mean_mps,468,1326,35.29
+confidence,second_best_score,51,1326,3.85
+evidence_chain,wind_speed_mean_mps,54,153,35.29
+geospatial,wind_speed_mean_mps,54,153,35.29
+geospatial,wind_speed_display,54,153,35.29

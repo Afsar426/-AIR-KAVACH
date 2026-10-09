@@ -1,0 +1,5 @@
+station,total_observations,eligible_observations,ineligible_observations,eligible_percent,missing_past_mean,missing_past_std,missing_deviation,large_gaps,segment_count,maximum_gap_minutes
+Airport,951,579,372,60.88,372,372,372,28,29,285.0
+Maguda,2064,1620,444,78.49,444,444,444,25,26,7365.0
+Regional Park,2571,1383,1188,53.79,1188,1188,1188,66,67,255.0
+Residency,2625,2085,540,79.43,540,540,540,25,26,1995.0

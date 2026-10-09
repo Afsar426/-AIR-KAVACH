@@ -1,0 +1,4 @@
+threshold_minutes,total_observations,segment_count,large_gap_count,eligible_observations,ineligible_observations,eligible_percent,short_segments_le_24_rows,segments_with_no_eligible_rows,segments_with_eligible_rows,eligible_change_vs_15min,eligibility_change_percentage_points_vs_15min
+15,8211,148,144,5667,2544,69.02,64,64,84,0,0.0
+30,8211,118,114,5935,2276,72.28,39,39,79,268,3.260000000000005
+60,8211,75,71,6687,1524,81.44,19,19,56,1020,12.420000000000002

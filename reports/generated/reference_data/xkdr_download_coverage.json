@@ -1,0 +1,57 @@
+{
+  "source": "XKDR India Air Quality Database",
+  "downloaded_at_utc": "2026-10-09T04:59:27.032883+00:00",
+  "requested_start": "2024-01-01",
+  "requested_end": "2024-12-31",
+  "stations_requested": {
+    "site_5857": "Airport Area",
+    "site_5248": "Chhoti Gwaltoli",
+    "site_5856": "Maguda Nagar",
+    "site_5855": "Regional Park",
+    "site_5854": "Residency Area"
+  },
+  "parameters_requested": [
+    "PM2.5",
+    "PM10",
+    "NO2",
+    "SO2"
+  ],
+  "aggregation": "daily",
+  "returned_rows": 5691,
+  "api_row_count_header": "5691",
+  "api_truncated_header": "false",
+  "station_column": "station_id",
+  "parameter_column": "parameter_name",
+  "time_column": "period_start",
+  "columns": [
+    "station_id",
+    "parameter_name",
+    "unit",
+    "period_start",
+    "mean",
+    "min",
+    "max",
+    "n"
+  ],
+  "data_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\raw\\reference\\xkdr\\indore_daily_measurements_2024.parquet",
+  "limitations": [
+    "Daily aggregates cannot validate individual 15-minute events.",
+    "A missing station-pollutant combination does not mean zero pollution.",
+    "Historical observations do not independently identify a factory source."
+  ],
+  "rows_by_station": {
+    "site_5248": 1464,
+    "site_5854": 1428,
+    "site_5855": 1140,
+    "site_5856": 1280,
+    "site_5857": 379
+  },
+  "rows_by_parameter": {
+    "NO2": 1345,
+    "PM10": 1354,
+    "PM2.5": 1460,
+    "SO2": 1532
+  },
+  "first_timestamp_returned": "2024-01-01 00:00:00",
+  "last_timestamp_returned": "2024-12-31 00:00:00"
+}

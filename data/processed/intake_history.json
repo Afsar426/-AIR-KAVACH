@@ -1,0 +1,3022 @@
+[
+  {
+    "job_id": "IMP-20261009203134-62F7",
+    "timestamp_utc": "2026-10-09T20:31:34.528626+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009203126-2487",
+    "timestamp_utc": "2026-10-09T20:31:26.601701+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009203126-E004",
+    "timestamp_utc": "2026-10-09T20:31:26.589453+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009203119-F513",
+    "timestamp_utc": "2026-10-09T20:31:19.884465+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009203119-F90A",
+    "timestamp_utc": "2026-10-09T20:31:19.703582+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009203119-5AF6",
+    "timestamp_utc": "2026-10-09T20:31:19.687343+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009200155-DA23",
+    "timestamp_utc": "2026-10-09T20:01:55.969084+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009200152-B589",
+    "timestamp_utc": "2026-10-09T20:01:52.949763+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009200152-CD88",
+    "timestamp_utc": "2026-10-09T20:01:52.938925+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009200149-9B6F",
+    "timestamp_utc": "2026-10-09T20:01:49.149531+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009200148-D7E2",
+    "timestamp_utc": "2026-10-09T20:01:48.993327+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009200148-A998",
+    "timestamp_utc": "2026-10-09T20:01:48.973154+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009195916-7399",
+    "timestamp_utc": "2026-10-09T19:59:16.364800+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009195913-FF57",
+    "timestamp_utc": "2026-10-09T19:59:13.160581+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009195913-B1D8",
+    "timestamp_utc": "2026-10-09T19:59:13.149210+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009195908-09F5",
+    "timestamp_utc": "2026-10-09T19:59:08.694953+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009195908-F2E5",
+    "timestamp_utc": "2026-10-09T19:59:08.496530+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009195908-020D",
+    "timestamp_utc": "2026-10-09T19:59:08.478171+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193326-2C0D",
+    "timestamp_utc": "2026-10-09T19:33:26.167542+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193323-3935",
+    "timestamp_utc": "2026-10-09T19:33:23.832223+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193323-A006",
+    "timestamp_utc": "2026-10-09T19:33:23.820528+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193320-B992",
+    "timestamp_utc": "2026-10-09T19:33:20.651318+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193320-4FCB",
+    "timestamp_utc": "2026-10-09T19:33:20.452500+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193320-0154",
+    "timestamp_utc": "2026-10-09T19:33:20.435740+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193243-0638",
+    "timestamp_utc": "2026-10-09T19:32:43.366207+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193239-4C50",
+    "timestamp_utc": "2026-10-09T19:32:39.083689+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193239-BB7F",
+    "timestamp_utc": "2026-10-09T19:32:39.070986+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193236-61B6",
+    "timestamp_utc": "2026-10-09T19:32:36.222091+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193236-3173",
+    "timestamp_utc": "2026-10-09T19:32:36.071099+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009193236-5A1D",
+    "timestamp_utc": "2026-10-09T19:32:36.055518+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009191344-7E59",
+    "timestamp_utc": "2026-10-09T19:13:44.334355+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009191341-6B06",
+    "timestamp_utc": "2026-10-09T19:13:41.536617+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009191341-D527",
+    "timestamp_utc": "2026-10-09T19:13:41.524782+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009191337-4D57",
+    "timestamp_utc": "2026-10-09T19:13:37.728271+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009191337-3889",
+    "timestamp_utc": "2026-10-09T19:13:37.559611+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009191337-64EE",
+    "timestamp_utc": "2026-10-09T19:13:37.541783+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009185610-8429",
+    "timestamp_utc": "2026-10-09T18:56:10.359189+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009185557-C21B",
+    "timestamp_utc": "2026-10-09T18:55:57.975801+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009185557-F886",
+    "timestamp_utc": "2026-10-09T18:55:57.964501+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009185552-B961",
+    "timestamp_utc": "2026-10-09T18:55:52.903353+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009185552-6323",
+    "timestamp_utc": "2026-10-09T18:55:52.700986+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009185552-1C5E",
+    "timestamp_utc": "2026-10-09T18:55:52.684627+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183846-C628",
+    "timestamp_utc": "2026-10-09T18:38:46.597782+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183843-61B4",
+    "timestamp_utc": "2026-10-09T18:38:43.831415+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183843-9D83",
+    "timestamp_utc": "2026-10-09T18:38:43.819966+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183839-618A",
+    "timestamp_utc": "2026-10-09T18:38:39.281703+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183839-283E",
+    "timestamp_utc": "2026-10-09T18:38:39.110928+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183839-C2B5",
+    "timestamp_utc": "2026-10-09T18:38:39.094025+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183721-0AB8",
+    "timestamp_utc": "2026-10-09T18:37:21.980375+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183719-BC30",
+    "timestamp_utc": "2026-10-09T18:37:19.078189+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183719-02D8",
+    "timestamp_utc": "2026-10-09T18:37:19.067162+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183714-7133",
+    "timestamp_utc": "2026-10-09T18:37:14.771378+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183714-C9A5",
+    "timestamp_utc": "2026-10-09T18:37:14.600210+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183714-B8CC",
+    "timestamp_utc": "2026-10-09T18:37:14.583803+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183549-9B07",
+    "timestamp_utc": "2026-10-09T18:35:49.666388+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183545-6A80",
+    "timestamp_utc": "2026-10-09T18:35:45.962206+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183545-5A0C",
+    "timestamp_utc": "2026-10-09T18:35:45.951314+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183541-292E",
+    "timestamp_utc": "2026-10-09T18:35:41.682928+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183541-2831",
+    "timestamp_utc": "2026-10-09T18:35:41.488357+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009183541-8F73",
+    "timestamp_utc": "2026-10-09T18:35:41.473605+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182858-A6A3",
+    "timestamp_utc": "2026-10-09T18:28:58.283393+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182854-D5A3",
+    "timestamp_utc": "2026-10-09T18:28:54.452687+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182854-5D23",
+    "timestamp_utc": "2026-10-09T18:28:54.441522+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182851-5D36",
+    "timestamp_utc": "2026-10-09T18:28:51.608049+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182851-5E15",
+    "timestamp_utc": "2026-10-09T18:28:51.426850+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182851-DB75",
+    "timestamp_utc": "2026-10-09T18:28:51.411839+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182757-0967",
+    "timestamp_utc": "2026-10-09T18:27:57.212995+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182754-4CD6",
+    "timestamp_utc": "2026-10-09T18:27:54.170578+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182754-4F02",
+    "timestamp_utc": "2026-10-09T18:27:54.159403+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182749-969D",
+    "timestamp_utc": "2026-10-09T18:27:49.976856+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182749-D752",
+    "timestamp_utc": "2026-10-09T18:27:49.818014+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009182749-52C8",
+    "timestamp_utc": "2026-10-09T18:27:49.787439+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181739-48B4",
+    "timestamp_utc": "2026-10-09T18:17:39.754257+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181736-7CD4",
+    "timestamp_utc": "2026-10-09T18:17:36.010068+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181735-8028",
+    "timestamp_utc": "2026-10-09T18:17:35.999763+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181732-0123",
+    "timestamp_utc": "2026-10-09T18:17:32.590761+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181732-AFAB",
+    "timestamp_utc": "2026-10-09T18:17:32.402761+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181732-A032",
+    "timestamp_utc": "2026-10-09T18:17:32.387854+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181026-0CB3",
+    "timestamp_utc": "2026-10-09T18:10:26.780683+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181015-E088",
+    "timestamp_utc": "2026-10-09T18:10:15.163747+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181015-8146",
+    "timestamp_utc": "2026-10-09T18:10:15.153331+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181010-788F",
+    "timestamp_utc": "2026-10-09T18:10:10.196072+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181009-7C8C",
+    "timestamp_utc": "2026-10-09T18:10:09.997550+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009181009-1034",
+    "timestamp_utc": "2026-10-09T18:10:09.981873+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180945-352A",
+    "timestamp_utc": "2026-10-09T18:09:45.515859+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180842-9EB6",
+    "timestamp_utc": "2026-10-09T18:08:42.666279+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180739-958B",
+    "timestamp_utc": "2026-10-09T18:07:39.865614+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180537-E7BD",
+    "timestamp_utc": "2026-10-09T18:05:37.186138+00:00",
+    "source": "Phase 3 Isolation Test",
+    "data_type": "observed",
+    "region_id": "in-phase3-test-isolation",
+    "records_received": 3,
+    "records_accepted": 3,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-phase3-test-isolation_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180422-346C",
+    "timestamp_utc": "2026-10-09T18:04:22.135156+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180419-4A46",
+    "timestamp_utc": "2026-10-09T18:04:19.058440+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180419-B8DB",
+    "timestamp_utc": "2026-10-09T18:04:19.048528+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180418-1459",
+    "timestamp_utc": "2026-10-09T18:04:18.934001+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180418-507C",
+    "timestamp_utc": "2026-10-09T18:04:18.919675+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180402-5E35",
+    "timestamp_utc": "2026-10-09T18:04:02.254017+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180402-6F29",
+    "timestamp_utc": "2026-10-09T18:04:02.204870+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180306-0273",
+    "timestamp_utc": "2026-10-09T18:03:06.286460+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180303-02E7",
+    "timestamp_utc": "2026-10-09T18:03:03.043107+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180303-DA65",
+    "timestamp_utc": "2026-10-09T18:03:03.027159+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180302-59B1",
+    "timestamp_utc": "2026-10-09T18:03:02.789089+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180217-43D8",
+    "timestamp_utc": "2026-10-09T18:02:17.204221+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180216-E43A",
+    "timestamp_utc": "2026-10-09T18:02:16.365162+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180216-DBE0",
+    "timestamp_utc": "2026-10-09T18:02:16.354128+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\in-dl-delhi_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180216-DFE6",
+    "timestamp_utc": "2026-10-09T18:02:16.245376+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009180216-075B",
+    "timestamp_utc": "2026-10-09T18:02:16.229492+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "is_test": true,
+    "environment": "test",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\test_intake\\in-test-auto_air_quality.parquet"
+    }
+  },
+  {
+    "job_id": "IMP-20261009174411-29FD",
+    "timestamp_utc": "2026-10-09T17:44:11.942490+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009174407-1A3E",
+    "timestamp_utc": "2026-10-09T17:44:07.763572+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009174407-7052",
+    "timestamp_utc": "2026-10-09T17:44:07.752463+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009174407-47FD",
+    "timestamp_utc": "2026-10-09T17:44:07.652250+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009174407-4EB6",
+    "timestamp_utc": "2026-10-09T17:44:07.615879+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162718-4A19",
+    "timestamp_utc": "2026-10-09T16:27:18.756095+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162715-7108",
+    "timestamp_utc": "2026-10-09T16:27:15.709227+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162715-57CC",
+    "timestamp_utc": "2026-10-09T16:27:15.690514+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162715-F0B4",
+    "timestamp_utc": "2026-10-09T16:27:15.587318+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162715-B196",
+    "timestamp_utc": "2026-10-09T16:27:15.573584+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162648-CB27",
+    "timestamp_utc": "2026-10-09T16:26:48.597775+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162648-A25C",
+    "timestamp_utc": "2026-10-09T16:26:48.553214+00:00",
+    "source": "Automated Phase 2 Test",
+    "data_type": "observed",
+    "region_id": "in-test-auto",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162555-B553",
+    "timestamp_utc": "2026-10-09T16:25:55.232312+00:00",
+    "source": "Phase 2 Deterministic Intake Test",
+    "data_type": "observed",
+    "region_id": "in-test-validation",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162555-C6FD",
+    "timestamp_utc": "2026-10-09T16:25:55.209240+00:00",
+    "source": "Phase 2 Deterministic Intake Test",
+    "data_type": "observed",
+    "region_id": "in-test-validation",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162407-B5AB",
+    "timestamp_utc": "2026-10-09T16:24:07.005941+00:00",
+    "source": "Phase 2 Deterministic Intake Test",
+    "data_type": "observed",
+    "region_id": "in-test-validation",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162406-CD8A",
+    "timestamp_utc": "2026-10-09T16:24:06.983723+00:00",
+    "source": "Phase 2 Deterministic Intake Test",
+    "data_type": "observed",
+    "region_id": "in-test-validation",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162255-BF30",
+    "timestamp_utc": "2026-10-09T16:22:55.781811+00:00",
+    "source": "Phase 2 Deterministic Intake Test",
+    "data_type": "observed",
+    "region_id": "in-test-validation",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162255-1F7F",
+    "timestamp_utc": "2026-10-09T16:22:55.730449+00:00",
+    "source": "Phase 2 Deterministic Intake Test",
+    "data_type": "observed",
+    "region_id": "in-test-validation",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 3,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162044-715E",
+    "timestamp_utc": "2026-10-09T16:20:44.727016+00:00",
+    "source": "Phase 2 Deterministic Intake Test",
+    "data_type": "observed",
+    "region_id": "in-test-validation",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": -1,
+      "total_rows_in_store": 3,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009162043-ED5C",
+    "timestamp_utc": "2026-10-09T16:20:43.930696+00:00",
+    "source": "Phase 2 Deterministic Intake Test",
+    "data_type": "observed",
+    "region_id": "in-test-validation",
+    "records_received": 4,
+    "records_accepted": 4,
+    "records_rejected": 0,
+    "validation_errors": {
+      "Value 9999.0 exceeds physical maximum 2000.0 \u00b5g/m\u00b3": 1
+    },
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 4,
+      "total_rows_in_store": 4,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009161859-2D9A",
+    "timestamp_utc": "2026-10-09T16:18:59.817023+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009161857-1D78",
+    "timestamp_utc": "2026-10-09T16:18:57.312973+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009161857-31C4",
+    "timestamp_utc": "2026-10-09T16:18:57.303113+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009161721-2FD3",
+    "timestamp_utc": "2026-10-09T16:17:21.374515+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009161718-145F",
+    "timestamp_utc": "2026-10-09T16:17:18.844006+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009161718-3689",
+    "timestamp_utc": "2026-10-09T16:17:18.835595+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009160746-F47A",
+    "timestamp_utc": "2026-10-09T16:07:46.828799+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009160743-A5ED",
+    "timestamp_utc": "2026-10-09T16:07:43.859994+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009160743-8CB4",
+    "timestamp_utc": "2026-10-09T16:07:43.836406+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009154103-4151",
+    "timestamp_utc": "2026-10-09T15:41:03.648434+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009154100-4079",
+    "timestamp_utc": "2026-10-09T15:41:00.610572+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009154100-CFC3",
+    "timestamp_utc": "2026-10-09T15:41:00.599597+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009153851-8963",
+    "timestamp_utc": "2026-10-09T15:38:51.749447+00:00",
+    "source": "Unit Test Delhi CSV",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009153849-9858",
+    "timestamp_utc": "2026-10-09T15:38:49.400711+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009153849-2ED5",
+    "timestamp_utc": "2026-10-09T15:38:49.373861+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-dl-delhi",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 1,
+      "events_detected": 0,
+      "attribution_status": "skipped"
+    }
+  },
+  {
+    "job_id": "IMP-20261009153756-50A8",
+    "timestamp_utc": "2026-10-09T15:37:56.542724+00:00",
+    "source": "Unit Test CSV",
+    "data_type": "observed",
+    "region_id": "in-mp-indore",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 8212,
+      "events_detected": 0,
+      "attribution_status": "error: 'EventProcessor' object has no attribute 'detect_events'"
+    }
+  },
+  {
+    "job_id": "IMP-20261009153753-DBC0",
+    "timestamp_utc": "2026-10-09T15:37:53.360668+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-mp-indore",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 8212,
+      "events_detected": 0,
+      "attribution_status": "error: 'EventProcessor' object has no attribute 'detect_events'"
+    }
+  },
+  {
+    "job_id": "IMP-20261009153753-A65E",
+    "timestamp_utc": "2026-10-09T15:37:53.317159+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-mp-indore",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 8212,
+      "events_detected": 0,
+      "attribution_status": "error: 'EventProcessor' object has no attribute 'detect_events'"
+    }
+  },
+  {
+    "job_id": "IMP-20261009153741-4CAF",
+    "timestamp_utc": "2026-10-09T15:37:41.734074+00:00",
+    "source": "Unit Test CSV",
+    "data_type": "observed",
+    "region_id": "in-mp-indore",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 1,
+      "total_rows_in_store": 8212,
+      "events_detected": 0,
+      "attribution_status": "error: 'EventProcessor' object has no attribute 'detect_events'"
+    }
+  },
+  {
+    "job_id": "IMP-20261009153739-E951",
+    "timestamp_utc": "2026-10-09T15:37:39.020950+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-mp-indore",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 8211,
+      "events_detected": 0,
+      "attribution_status": "error: 'EventProcessor' object has no attribute 'detect_events'"
+    }
+  },
+  {
+    "job_id": "IMP-20261009153738-A9A2",
+    "timestamp_utc": "2026-10-09T15:37:38.996359+00:00",
+    "source": "Direct Feed / Upload",
+    "data_type": "observed",
+    "region_id": "in-mp-indore",
+    "records_received": 1,
+    "records_accepted": 1,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "details": {
+      "net_inserted_rows": 0,
+      "total_rows_in_store": 8211,
+      "events_detected": 0,
+      "attribution_status": "error: 'EventProcessor' object has no attribute 'detect_events'"
+    }
+  }
+]

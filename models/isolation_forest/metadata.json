@@ -1,0 +1,39 @@
+{
+  "version": "1.0.0",
+  "model_type": "IsolationForest",
+  "n_estimators": 300,
+  "contamination": 0.02,
+  "random_state": 42,
+  "total_training_samples": 5667,
+  "feature_schema": [
+    "value",
+    "deviation",
+    "past_std",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "trained_at": "2026-10-09T12:32:43.495996+00:00",
+  "station_summary": {
+    "Airport": {
+      "trained_samples": 579,
+      "anomalies_detected": 12,
+      "anomaly_rate_pct": 2.07
+    },
+    "Maguda": {
+      "trained_samples": 1620,
+      "anomalies_detected": 33,
+      "anomaly_rate_pct": 2.04
+    },
+    "Regional Park": {
+      "trained_samples": 1383,
+      "anomalies_detected": 28,
+      "anomaly_rate_pct": 2.02
+    },
+    "Residency": {
+      "trained_samples": 2085,
+      "anomalies_detected": 42,
+      "anomaly_rate_pct": 2.01
+    }
+  },
+  "artifact_file": "isolation_forest_v1.joblib"
+}

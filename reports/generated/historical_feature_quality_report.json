@@ -1,0 +1,58 @@
+{
+  "project": "AIR KAVACH",
+  "input_observations": 8211,
+  "stations": [
+    "Airport",
+    "Maguda",
+    "Regional Park",
+    "Residency"
+  ],
+  "gap_thresholds": [
+    15,
+    30,
+    60
+  ],
+  "rolling_window": 96,
+  "minimum_history": 24,
+  "overall_results": [
+    {
+      "gap_threshold_minutes": 15,
+      "total_observations": 8211,
+      "eligible_observations": 5667,
+      "segment_count": 148,
+      "large_gap_count": 144,
+      "ineligible_observations": 2544,
+      "eligible_percent": 69.02
+    },
+    {
+      "gap_threshold_minutes": 30,
+      "total_observations": 8211,
+      "eligible_observations": 5935,
+      "segment_count": 118,
+      "large_gap_count": 114,
+      "ineligible_observations": 2276,
+      "eligible_percent": 72.28
+    },
+    {
+      "gap_threshold_minutes": 60,
+      "total_observations": 8211,
+      "eligible_observations": 6687,
+      "segment_count": 75,
+      "large_gap_count": 71,
+      "ineligible_observations": 1524,
+      "eligible_percent": 81.44
+    }
+  ],
+  "limitations": [
+    "Feature availability does not establish feature correctness.",
+    "Larger gap thresholds can connect readings across longer periods.",
+    "No model accuracy or causal attribution is evaluated.",
+    "No gap threshold is automatically recommended by this diagnostic."
+  ],
+  "outputs": {
+    "summary": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\historical_feature_quality_summary.csv",
+    "station_summary": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\historical_feature_quality_station.csv",
+    "observations": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\historical_feature_quality_observations.csv",
+    "gap_review": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\historical_feature_quality_gap_review.csv"
+  }
+}

@@ -1,0 +1,5 @@
+station,candidate_rows,missing_wind_speed,mean_wind_speed,mean_wind_coverage,missing_wind_speed_percent
+Airport,182,0,0.1769047619047619,1.0,0.0
+Maguda,468,468,,1.0,100.0
+Regional Park,260,0,0.1680720588235294,1.0,0.0
+Residency,416,0,0.30306935307017546,1.0,0.0

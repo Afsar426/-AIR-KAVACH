@@ -1,0 +1,54 @@
+{
+  "project": "AIR KAVACH",
+  "dataset": "XKDR Indore Daily Measurements 2024",
+  "processed_at_utc": "2026-10-09T05:13:54.184497+00:00",
+  "input_rows": 5691,
+  "output_rows": 5691,
+  "rows_removed": 0,
+  "unique_stations": 5,
+  "unique_pollutants": 4,
+  "unique_units": 1,
+  "aggregation_level": "daily",
+  "timestamp_policy": "Source period_start is interpreted as IST, then converted to UTC. Daily values remain daily aggregates.",
+  "duplicate_key_rows": 0,
+  "timestamp_parse_failures": 0,
+  "quality_review_rows": 278,
+  "high_daily_mean_review_rows": 9,
+  "negative_measurement_rows": 0,
+  "invalid_order_rows": 0,
+  "missing_measurement_rows": 0,
+  "nonpositive_sample_count_rows": 0,
+  "units": [
+    {
+      "parameter": "NO2",
+      "unit": "µg/m³",
+      "records": 1345
+    },
+    {
+      "parameter": "PM10",
+      "unit": "µg/m³",
+      "records": 1354
+    },
+    {
+      "parameter": "PM2.5",
+      "unit": "µg/m³",
+      "records": 1460
+    },
+    {
+      "parameter": "SO2",
+      "unit": "µg/m³",
+      "records": 1532
+    }
+  ],
+  "outputs": {
+    "parquet": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\xkdr_daily_2024.parquet",
+    "csv": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\xkdr_daily_2024.csv",
+    "flagged_records": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\reference_data\\xkdr_flagged_observations.csv"
+  },
+  "limitations": [
+    "Daily averages cannot be treated as 15-minute measurements.",
+    "High-value flags indicate review candidates, not confirmed errors.",
+    "Historical air-quality observations do not independently establish factory attribution.",
+    "Source station identifiers must be mapped and validated before cross-dataset comparisons."
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "input_rows": 8211,
+  "valid_scored_rows": 5667,
+  "rows_by_split": {
+    "train": 3904,
+    "test": 987,
+    "validation": 776
+  },
+  "stations": [
+    "Airport",
+    "Maguda",
+    "Regional Park",
+    "Residency"
+  ],
+  "score_direction": "higher_is_more_anomalous",
+  "score_direction_note": "Training flagged rows have a higher median score.",
+  "flag_column_available": true,
+  "interpretation": "Distribution diagnostic only. It does not measure accuracy, precision, recall, causal attribution or verified pollution events.",
+  "reports": {
+    "station": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\score_distribution_station_report.csv",
+    "daily": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\score_distribution_daily_report.csv",
+    "observations": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\score_distribution_observations.csv"
+  }
+}

@@ -1,0 +1,40 @@
+# Version control
+.git
+.gitignore
+.github
+
+# Python virtual environment & cache
+.venv
+venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+.coverage
+htmlcov
+*.egg-info
+
+# Node / Frontend build artifacts
+node_modules
+frontend/node_modules
+frontend/dist
+dist
+
+# Environment & local credentials
+.env
+.env.local
+
+# Operating System artifacts
+.DS_Store
+Thumbs.db
+
+# IDE & Editor files
+.vscode
+.idea
+
+# Temporary scratch & loop runner directories
+scratch
+ralph-loop-for-antigravity-modified
+logs
+*.log

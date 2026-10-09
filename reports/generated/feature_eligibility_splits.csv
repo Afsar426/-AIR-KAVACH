@@ -1,0 +1,11 @@
+station,split,total_observations,eligible_observations,ineligible_observations,eligible_percent,missing_past_mean,missing_past_std
+Airport,train,951,579,372,60.88,372,372
+Maguda,test,454,380,74,83.7,74,74
+Maguda,train,1345,1024,321,76.13,321,321
+Maguda,validation,265,216,49,81.51,49,49
+Regional Park,test,421,275,146,65.32,146,146
+Regional Park,train,1778,818,960,46.01,960,960
+Regional Park,validation,372,290,82,77.96,82,82
+Residency,test,453,332,121,73.29,121,121
+Residency,train,1801,1483,318,82.34,318,318
+Residency,validation,371,270,101,72.78,101,101

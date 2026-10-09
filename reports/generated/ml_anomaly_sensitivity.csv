@@ -1,0 +1,13 @@
+contamination,station,eligible_rows,anomalies,mean_pm25_among_anomalies,flagged_percent
+0.01,Airport,579,6,208.7,1.036
+0.01,Maguda,1620,17,55.25,1.049
+0.01,Regional Park,1383,14,29.84,1.012
+0.01,Residency,2085,21,34.56,1.007
+0.02,Airport,579,12,150.08,2.073
+0.02,Maguda,1620,33,45.86,2.037
+0.02,Regional Park,1383,28,20.6,2.025
+0.02,Residency,2085,42,33.88,2.014
+0.03,Airport,579,18,123.49,3.109
+0.03,Maguda,1620,49,41.05,3.025
+0.03,Regional Park,1383,42,19.28,3.037
+0.03,Residency,2085,63,33.16,3.022

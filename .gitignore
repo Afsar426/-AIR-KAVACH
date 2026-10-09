@@ -1,0 +1,44 @@
+# Virtual environments
+.venv/
+venv/
+ENV/
+
+# Environment and sensitive credentials
+.env
+*.env
+.env.*
+!.env.example
+
+# Byte-compiled / optimized files
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Node / Frontend build outputs
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# IDE and OS artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Development / Agent scratch workspaces
+ralph-loop-for-antigravity-modified/
+scratch/
+test-scratch/
+
+# Heavy raw ingestion sources & training checkpoints
+data/raw/
+models/checkpoints/
+
+# Runtime logs
+*.log
+logs/

@@ -1,0 +1,18 @@
+{
+  "input_observations": 8211,
+  "eligible_observations": 5667,
+  "ineligible_observations": 2544,
+  "eligible_percent": 69.02,
+  "segment_count": 148,
+  "large_gap_count": 144,
+  "rolling_window": 96,
+  "minimum_history": 24,
+  "maximum_continuous_gap_minutes": 15,
+  "interpretation": "Eligibility audit only. Ineligible observations are not necessarily anomalous or invalid.",
+  "reports": {
+    "station": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\feature_eligibility_station.csv",
+    "segments": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\feature_eligibility_segments.csv",
+    "gaps": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\feature_eligibility_gaps.csv",
+    "splits": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\feature_eligibility_splits.csv"
+  }
+}

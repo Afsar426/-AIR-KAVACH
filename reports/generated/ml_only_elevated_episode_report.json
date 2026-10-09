@@ -1,0 +1,29 @@
+{
+  "project": "AIR KAVACH",
+  "analysis": "ML-only elevated observation episode grouping",
+  "input_observation_count": 44,
+  "episode_count": 13,
+  "station_episode_counts": {
+    "Airport": 1,
+    "Maguda": 5,
+    "Regional Park": 1,
+    "Residency": 6
+  },
+  "grouping_gap_minutes": 30,
+  "threshold_pm25": 35,
+  "total_episode_observations": 44,
+  "episodes_overlapping_existing_events": 0,
+  "interpretation": [
+    "Episodes are grouped using station and timestamp continuity.",
+    "The 30-minute grouping threshold is an operational choice, not a validated physical boundary.",
+    "Episode duration is the interval between first and last observed readings.",
+    "ML-only means the ML detector flagged the observation while the statistical baseline did not.",
+    "Episodes are not confirmed pollution incidents.",
+    "Wind information is contextual evidence, not proof of industrial source causation.",
+    "Existing-event overlap is not independent model validation."
+  ],
+  "outputs": [
+    "reports\\generated\\ml_only_elevated_episodes.csv",
+    "reports\\generated\\ml_only_elevated_episode_report.json"
+  ]
+}

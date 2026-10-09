@@ -1,0 +1,41 @@
+{
+  "project": "AIR KAVACH",
+  "analysis": "Chronological holdout distribution diagnostic",
+  "input_rows": 8211,
+  "split_counts": {
+    "test": 1328,
+    "train": 5875,
+    "validation": 1008
+  },
+  "station_availability": {
+    "test": {
+      "('test', 'Maguda')": 454,
+      "('test', 'Residency')": 453,
+      "('test', 'Regional Park')": 421
+    },
+    "train": {
+      "('train', 'Residency')": 1801,
+      "('train', 'Regional Park')": 1778,
+      "('train', 'Maguda')": 1345,
+      "('train', 'Airport')": 951
+    },
+    "validation": {
+      "('validation', 'Regional Park')": 372,
+      "('validation', 'Residency')": 371,
+      "('validation', 'Maguda')": 265
+    }
+  },
+  "flagged_observation_count": 597,
+  "outputs": [
+    "reports\\generated\\holdout_drift_station_summary.csv",
+    "reports\\generated\\holdout_drift_daily_summary.csv",
+    "reports\\generated\\holdout_drift_flagged_observations.csv"
+  ],
+  "limitations": [
+    "No verified ground-truth labels were used.",
+    "Flag rate is not accuracy, precision, or recall.",
+    "Distribution differences suggest possible drift but do not prove its cause.",
+    "Test-period results must not be used to tune the model.",
+    "Airport has no validation/test observations in the current dataset."
+  ]
+}

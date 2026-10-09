@@ -1,0 +1,118 @@
+{
+  "project": "AIR KAVACH",
+  "input_observations": 8211,
+  "thresholds_minutes": [
+    15,
+    30,
+    60
+  ],
+  "common_observations": 5667,
+  "common_observations_by_station": [
+    {
+      "station": "Airport",
+      "common_observations": 579
+    },
+    {
+      "station": "Maguda",
+      "common_observations": 1620
+    },
+    {
+      "station": "Regional Park",
+      "common_observations": 1383
+    },
+    {
+      "station": "Residency",
+      "common_observations": 2085
+    }
+  ],
+  "input_value_difference_max": 0.0,
+  "summary": [
+    {
+      "feature": "past_mean",
+      "comparison": "15_vs_30",
+      "common_observations": 5667,
+      "mean_absolute_difference": 0.14318890213996394,
+      "median_absolute_difference": 0.0,
+      "p90_absolute_difference": 0.0003388021335396424,
+      "max_absolute_difference": 8.372903225806454
+    },
+    {
+      "feature": "past_mean",
+      "comparison": "15_vs_60",
+      "common_observations": 5667,
+      "mean_absolute_difference": 0.6013475826745434,
+      "median_absolute_difference": 0.0,
+      "p90_absolute_difference": 2.113688967710373,
+      "max_absolute_difference": 16.4721875
+    },
+    {
+      "feature": "past_mean",
+      "comparison": "30_vs_60",
+      "common_observations": 5667,
+      "mean_absolute_difference": 0.47569838676837733,
+      "median_absolute_difference": 0.0,
+      "p90_absolute_difference": 1.512627864486462,
+      "max_absolute_difference": 16.4721875
+    },
+    {
+      "feature": "past_std",
+      "comparison": "15_vs_30",
+      "common_observations": 5667,
+      "mean_absolute_difference": 0.22112496140740087,
+      "median_absolute_difference": 0.0,
+      "p90_absolute_difference": 0.00032009520707847476,
+      "max_absolute_difference": 37.211277778970796
+    },
+    {
+      "feature": "past_std",
+      "comparison": "15_vs_60",
+      "common_observations": 5667,
+      "mean_absolute_difference": 0.5399990149639614,
+      "median_absolute_difference": 0.0,
+      "p90_absolute_difference": 1.1891119374250185,
+      "max_absolute_difference": 36.25284752174173
+    },
+    {
+      "feature": "past_std",
+      "comparison": "30_vs_60",
+      "common_observations": 5667,
+      "mean_absolute_difference": 0.3379413841602713,
+      "median_absolute_difference": 0.0,
+      "p90_absolute_difference": 0.9741093845722034,
+      "max_absolute_difference": 10.57578813577426
+    },
+    {
+      "feature": "deviation",
+      "comparison": "15_vs_30",
+      "common_observations": 5667,
+      "mean_absolute_difference": 0.14318890213996394,
+      "median_absolute_difference": 0.0,
+      "p90_absolute_difference": 0.0003388021335396424,
+      "max_absolute_difference": 8.372903225806454
+    },
+    {
+      "feature": "deviation",
+      "comparison": "15_vs_60",
+      "common_observations": 5667,
+      "mean_absolute_difference": 0.6013475826745434,
+      "median_absolute_difference": 0.0,
+      "p90_absolute_difference": 2.113688967710373,
+      "max_absolute_difference": 16.4721875
+    },
+    {
+      "feature": "deviation",
+      "comparison": "30_vs_60",
+      "common_observations": 5667,
+      "mean_absolute_difference": 0.47569838676837733,
+      "median_absolute_difference": 0.0,
+      "p90_absolute_difference": 1.5126278644864624,
+      "max_absolute_difference": 16.4721875
+    }
+  ],
+  "limitations": [
+    "This is a feature consistency test, not a model accuracy test.",
+    "Only observations eligible at all thresholds are compared.",
+    "Results may not represent observations eligible at only one threshold.",
+    "No verified pollution-event labels are used."
+  ]
+}

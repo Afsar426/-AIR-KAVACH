@@ -1,0 +1,49 @@
+{
+  "status": "PASS",
+  "input_rows": {
+    "air_quality": 8211,
+    "events": 51,
+    "ml_baseline": 8211,
+    "ml_sensitivity": 17001,
+    "stable_review": 58,
+    "episodes": 11,
+    "episode_comparison": 11
+  },
+  "duplicate_key_counts": {
+    "air_quality_station_timestamp": 0,
+    "ml_baseline_station_timestamp": 0,
+    "ml_sensitivity_station_timestamp_contamination": 0
+  },
+  "ml_score_checks": {
+    "scored_observations": 5667,
+    "all_scores_finite": true,
+    "flags_without_scores": 0
+  },
+  "sensitivity_checks": {
+    "contamination_levels_found": [
+      0.01,
+      0.02,
+      0.03
+    ],
+    "recomputed_stable_count": 58,
+    "recomputed_any_setting_count": 172,
+    "stable_review_csv_count": 58
+  },
+  "episode_checks": {
+    "episode_count": 11,
+    "comparison_row_count": 11,
+    "overlap_status_counts": {
+      "overlaps_existing_event": 6,
+      "no_temporal_overlap": 5
+    },
+    "invalid_episode_intervals": 0,
+    "unknown_event_references": []
+  },
+  "errors": [],
+  "warnings": [],
+  "interpretation": [
+    "This checks file consistency and internal data integrity only.",
+    "It does not measure anomaly-detection accuracy or validate causal attribution.",
+    "Temporal overlap with a heuristic event detector is not ground truth."
+  ]
+}

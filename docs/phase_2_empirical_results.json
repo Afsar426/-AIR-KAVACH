@@ -1,0 +1,145 @@
+{
+  "timestamp_utc": "2026-10-09T16:25:45.706181+00:00",
+  "providers": {
+    "openaq_v3": {
+      "health_status": "connected",
+      "authenticated": true,
+      "health_latency_ms": 979,
+      "fetch_latency_ms": 2619,
+      "records_count": 1000,
+      "data_type": "observed",
+      "station_tested": "Sector-2 Industrial Area, Pithampur (Sensor 12234921)",
+      "earliest_observation": "2025-02-18T20:00:00Z",
+      "latest_observation": "2025-03-02T01:30:00Z",
+      "validation_counts": {
+        "valid": 1000,
+        "suspect": 0,
+        "invalid": 0,
+        "stale": 0
+      },
+      "live_verified": true
+    },
+    "openmeteo_weather": {
+      "health_status": "connected",
+      "authenticated": true,
+      "health_latency_ms": 1284,
+      "fetch_latency_ms": 656,
+      "records_count": 144,
+      "data_type": "observed",
+      "coordinates_tested": "22.7196 N, 75.8577 E (Indore)",
+      "earliest_observation": "2026-09-01T00:00:00Z",
+      "latest_observation": "2026-09-02T23:00:00Z",
+      "parameters": [
+        "temperature_2m",
+        "wind_direction_10m",
+        "wind_speed_10m"
+      ],
+      "validation_counts": {
+        "valid": 144,
+        "suspect": 0,
+        "invalid": 0,
+        "stale": 0
+      },
+      "live_verified": true
+    },
+    "openmeteo_airquality_model": {
+      "health_status": "connected",
+      "authenticated": true,
+      "data_type": "modeled",
+      "health_latency_ms": 1726,
+      "fetch_latency_ms": 1141,
+      "records_count": 144,
+      "all_records_modeled_tagged": true,
+      "earliest_observation": "2026-09-01T00:00:00Z",
+      "latest_observation": "2026-09-02T23:00:00Z",
+      "validation_counts": {
+        "valid": 144,
+        "suspect": 0,
+        "invalid": 0,
+        "stale": 0
+      },
+      "live_verified": true
+    },
+    "cpcb_datagov": {
+      "health_status": "configured_pending_key",
+      "authenticated": false,
+      "message": "DATAGOVIN_API_KEY not set. Set key in .env or use mock/offline feeds.",
+      "live_verified": false,
+      "verification_mode": "mock_unit_tests_only"
+    },
+    "nasa_firms": {
+      "health_status": "configured_pending_key",
+      "authenticated": false,
+      "data_type": "satellite",
+      "message": "NASA_FIRMS_MAP_KEY not configured. Register at firms.modaps.eosdis.nasa.gov for free map key.",
+      "live_verified": false,
+      "verification_mode": "mock_unit_tests_only"
+    },
+    "cems_industrial_stack": {
+      "health_status": "awaiting_facility_authorization",
+      "authenticated": false,
+      "data_type": "cems",
+      "message": "CEMS_API_ENDPOINT not configured. Direct stack telemetry interface ready for SPCB/facility credentials.",
+      "live_verified": false,
+      "verification_mode": "mock_unit_tests_only"
+    }
+  },
+  "csv_intake": {
+    "preview_columns_detected": [
+      "Site_Name",
+      "Recorded_At",
+      "Pollutant_Type",
+      "Concentration_Value",
+      "Units",
+      "Latitude",
+      "Longitude"
+    ],
+    "preview_mapping": {
+      "station": "Site_Name",
+      "parameter": "Pollutant_Type",
+      "value": "Concentration_Value",
+      "unit": "Units",
+      "latitude": "Latitude",
+      "longitude": "Longitude"
+    },
+    "commit_1_accepted": 4,
+    "commit_1_rejected": 0,
+    "commit_1_net_inserted": 3,
+    "commit_2_net_inserted": 0,
+    "idempotency_verified": true,
+    "ledger_persistence_verified": true
+  },
+  "event_recomputation": {
+    "synthetic_events_detected": 2,
+    "gap_split_verified": true,
+    "past_only_baseline_verified": true,
+    "min_readings_enforced": true
+  },
+  "weather_alignment": {},
+  "source_attribution": {
+    "bearing_north": 0.0,
+    "bearing_east": 89.8,
+    "bearing_south": 180.0,
+    "bearing_west": 270.2,
+    "circular_wraparound_355_to_5_deg": 10.0,
+    "alignment_upwind": 1.0,
+    "alignment_downwind": -1.0,
+    "alignment_crosswind": 0.0,
+    "distance_decay_0km": 1.0,
+    "distance_decay_5km": 0.368,
+    "distance_decay_15km": 0.05,
+    "decay_formula": "exp(-distance_km / 5.0)"
+  },
+  "regional_isolation": {
+    "total_pan_india_regions": 6,
+    "delhi_coverage_status": "no_usable_data",
+    "delhi_total_observations": 0,
+    "delhi_total_events": 0,
+    "delhi_total_stations": 0,
+    "indore_coverage_status": "recent_data_available",
+    "indore_total_observations": 8211,
+    "indore_total_events": 48,
+    "indore_total_stations": 4,
+    "indore_isolation_maintained": true
+  }
+}

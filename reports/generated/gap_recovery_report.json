@@ -1,0 +1,73 @@
+{
+  "project": "AIR KAVACH",
+  "input_observations": 8211,
+  "stations": [
+    "Airport",
+    "Maguda",
+    "Regional Park",
+    "Residency"
+  ],
+  "gap_thresholds_minutes": [
+    15,
+    30,
+    60
+  ],
+  "minimum_history": 24,
+  "rolling_window": 96,
+  "threshold_results": [
+    {
+      "threshold_minutes": 15,
+      "total_observations": 8211,
+      "segment_count": 148,
+      "large_gap_count": 144,
+      "eligible_observations": 5667,
+      "ineligible_observations": 2544,
+      "eligible_percent": 69.02,
+      "short_segments_le_24_rows": 64,
+      "segments_with_no_eligible_rows": 64,
+      "segments_with_eligible_rows": 84,
+      "eligible_change_vs_15min": 0,
+      "eligibility_change_percentage_points_vs_15min": 0.0
+    },
+    {
+      "threshold_minutes": 30,
+      "total_observations": 8211,
+      "segment_count": 118,
+      "large_gap_count": 114,
+      "eligible_observations": 5935,
+      "ineligible_observations": 2276,
+      "eligible_percent": 72.28,
+      "short_segments_le_24_rows": 39,
+      "segments_with_no_eligible_rows": 39,
+      "segments_with_eligible_rows": 79,
+      "eligible_change_vs_15min": 268,
+      "eligibility_change_percentage_points_vs_15min": 3.260000000000005
+    },
+    {
+      "threshold_minutes": 60,
+      "total_observations": 8211,
+      "segment_count": 75,
+      "large_gap_count": 71,
+      "eligible_observations": 6687,
+      "ineligible_observations": 1524,
+      "eligible_percent": 81.44,
+      "short_segments_le_24_rows": 19,
+      "segments_with_no_eligible_rows": 19,
+      "segments_with_eligible_rows": 56,
+      "eligible_change_vs_15min": 1020,
+      "eligibility_change_percentage_points_vs_15min": 12.420000000000002
+    }
+  ],
+  "limitations": [
+    "Alternative thresholds are diagnostic scenarios only.",
+    "Eligibility does not establish anomaly or pollution-event status.",
+    "A larger gap threshold can join observations across longer intervals.",
+    "The diagnostic uses observation counts and does not validate temporal continuity scientifically.",
+    "No model accuracy or source-attribution accuracy is calculated."
+  ],
+  "outputs": {
+    "threshold_comparison": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\gap_recovery_threshold_comparison.csv",
+    "segment_details": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\gap_recovery_segment_details.csv",
+    "station_summary": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\reports\\generated\\gap_recovery_station_summary.csv"
+  }
+}

@@ -1,0 +1,6 @@
+check,source,records_checked,failure_count,status,note
+event_reference,attribution,1326,0,PASS,Event column=event_id; invalid references=0; null references=0
+event_reference,confidence,1326,0,PASS,Event column=event_id; invalid references=0; null references=0
+event_reference,evidence_chain,153,0,PASS,Event column=event_id; invalid references=0; null references=0
+event_reference,geospatial,153,0,PASS,Event column=event_id; invalid references=0; null references=0
+confidence_event_factory_pairs,confidence,1326,0,PASS,Confidence event-factory pairs missing from attribution=0

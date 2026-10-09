@@ -1,0 +1,42 @@
+{
+  "project": "AIR KAVACH",
+  "evaluation_type": "Chronological holdout; unlabelled evaluation",
+  "input_observations": 8211,
+  "feature_eligible_observations": 5667,
+  "models_trained": [
+    "Airport",
+    "Maguda",
+    "Regional Park",
+    "Residency"
+  ],
+  "split_boundaries": {
+    "train_start": "2026-09-01 00:00:00+00:00",
+    "train_end": "2026-09-21 00:00:00+00:00",
+    "validation_start": "2026-09-22 00:00:00+00:00",
+    "validation_end": "2026-09-25 00:00:00+00:00",
+    "test_start": "2026-09-26 00:00:00+00:00",
+    "test_end": "2026-09-30 00:00:00+00:00",
+    "unique_dates": 30
+  },
+  "train_fraction": 0.7,
+  "validation_fraction": 0.15,
+  "test_fraction_approx": 0.15,
+  "contamination": 0.02,
+  "n_estimators": 300,
+  "test_scored_observations": 987,
+  "test_flagged_observations": 197,
+  "outputs": [
+    "reports\\generated\\chronological_holdout_scores.csv",
+    "reports\\generated\\chronological_holdout_summary.csv",
+    "reports\\generated\\chronological_holdout_report.json"
+  ],
+  "limitations": [
+    "No verified ground-truth labels were used.",
+    "Flag rates are not accuracy, precision, or recall.",
+    "Models are trained separately for each station.",
+    "Training uses only the chronological training period.",
+    "Past-only features may use earlier observations from the validation/test period, as in a rolling operational system.",
+    "The test period must not be used to tune thresholds or model settings.",
+    "This evaluates temporal behaviour, not factory-source attribution."
+  ]
+}

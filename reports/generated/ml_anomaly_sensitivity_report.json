@@ -1,0 +1,153 @@
+{
+  "experiment": "Isolation Forest contamination sensitivity",
+  "input": "data\\processed\\air_quality\\air_quality.parquet",
+  "rows_in_input": 8211,
+  "contamination_levels": [
+    0.01,
+    0.02,
+    0.03
+  ],
+  "n_estimators": 300,
+  "random_state": 42,
+  "feature_columns": [
+    "value",
+    "deviation",
+    "past_std",
+    "hour_sin",
+    "hour_cos"
+  ],
+  "gap_handling": "Past-only rolling features reset at any interval other than 15 minutes.",
+  "station_summary": [
+    {
+      "contamination": 0.01,
+      "station": "Airport",
+      "eligible_rows": 579,
+      "anomalies": 6,
+      "mean_pm25_among_anomalies": 208.7,
+      "flagged_percent": 1.036
+    },
+    {
+      "contamination": 0.01,
+      "station": "Maguda",
+      "eligible_rows": 1620,
+      "anomalies": 17,
+      "mean_pm25_among_anomalies": 55.25,
+      "flagged_percent": 1.049
+    },
+    {
+      "contamination": 0.01,
+      "station": "Regional Park",
+      "eligible_rows": 1383,
+      "anomalies": 14,
+      "mean_pm25_among_anomalies": 29.84,
+      "flagged_percent": 1.012
+    },
+    {
+      "contamination": 0.01,
+      "station": "Residency",
+      "eligible_rows": 2085,
+      "anomalies": 21,
+      "mean_pm25_among_anomalies": 34.56,
+      "flagged_percent": 1.007
+    },
+    {
+      "contamination": 0.02,
+      "station": "Airport",
+      "eligible_rows": 579,
+      "anomalies": 12,
+      "mean_pm25_among_anomalies": 150.08,
+      "flagged_percent": 2.073
+    },
+    {
+      "contamination": 0.02,
+      "station": "Maguda",
+      "eligible_rows": 1620,
+      "anomalies": 33,
+      "mean_pm25_among_anomalies": 45.86,
+      "flagged_percent": 2.037
+    },
+    {
+      "contamination": 0.02,
+      "station": "Regional Park",
+      "eligible_rows": 1383,
+      "anomalies": 28,
+      "mean_pm25_among_anomalies": 20.6,
+      "flagged_percent": 2.025
+    },
+    {
+      "contamination": 0.02,
+      "station": "Residency",
+      "eligible_rows": 2085,
+      "anomalies": 42,
+      "mean_pm25_among_anomalies": 33.88,
+      "flagged_percent": 2.014
+    },
+    {
+      "contamination": 0.03,
+      "station": "Airport",
+      "eligible_rows": 579,
+      "anomalies": 18,
+      "mean_pm25_among_anomalies": 123.49,
+      "flagged_percent": 3.109
+    },
+    {
+      "contamination": 0.03,
+      "station": "Maguda",
+      "eligible_rows": 1620,
+      "anomalies": 49,
+      "mean_pm25_among_anomalies": 41.05,
+      "flagged_percent": 3.025
+    },
+    {
+      "contamination": 0.03,
+      "station": "Regional Park",
+      "eligible_rows": 1383,
+      "anomalies": 42,
+      "mean_pm25_among_anomalies": 19.28,
+      "flagged_percent": 3.037
+    },
+    {
+      "contamination": 0.03,
+      "station": "Residency",
+      "eligible_rows": 2085,
+      "anomalies": 63,
+      "mean_pm25_among_anomalies": 33.16,
+      "flagged_percent": 3.022
+    }
+  ],
+  "stability": {
+    "observations_scored_at_all_levels": 5667,
+    "flagged_at_all_three_levels": 58,
+    "flagged_at_least_one_level": 172,
+    "stable_share_of_any_flagged_percent": 33.72,
+    "pairwise_intersections": {
+      "0.01_vs_0.02": {
+        "flagged_a": 58,
+        "flagged_b": 115,
+        "intersection": 58,
+        "union": 115,
+        "jaccard_percent": 50.43
+      },
+      "0.01_vs_0.03": {
+        "flagged_a": 58,
+        "flagged_b": 172,
+        "intersection": 58,
+        "union": 172,
+        "jaccard_percent": 33.72
+      },
+      "0.02_vs_0.03": {
+        "flagged_a": 115,
+        "flagged_b": 172,
+        "intersection": 115,
+        "union": 172,
+        "jaccard_percent": 66.86
+      }
+    }
+  },
+  "limitations": [
+    "No verified anomaly labels; this is not an accuracy evaluation.",
+    "Contamination is a model parameter, not a measured real-world anomaly rate.",
+    "Anomalies are observations, not independent pollution events.",
+    "Unusual low readings may indicate sensor/data issues and need review."
+  ]
+}

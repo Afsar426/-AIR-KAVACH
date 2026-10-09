@@ -1,0 +1,13 @@
+threshold_minutes,station,total_observations,segment_count,large_gap_count,eligible_observations,ineligible_observations,eligible_percent,short_segments_le_24_rows
+15,Airport,951,29,28,579,372,60.88,16
+15,Maguda,2064,26,25,1620,444,78.49,10
+15,Regional Park,2571,67,66,1383,1188,53.79,33
+15,Residency,2625,26,25,2085,540,79.43,5
+30,Airport,951,17,16,680,271,71.5,7
+30,Maguda,2064,22,21,1631,433,79.02,6
+30,Regional Park,2571,58,57,1486,1085,57.8,25
+30,Residency,2625,21,20,2138,487,81.45,1
+60,Airport,951,10,9,795,156,83.6,4
+60,Maguda,2064,16,15,1718,346,83.24,2
+60,Regional Park,2571,33,32,1916,655,74.52,12
+60,Residency,2625,16,15,2258,367,86.02,1

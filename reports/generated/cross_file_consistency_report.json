@@ -1,0 +1,102 @@
+{
+  "project": "AIR KAVACH",
+  "files_loaded": {
+    "events": 51,
+    "attribution": 1326,
+    "confidence": 1326,
+    "evidence_chain": 153,
+    "geospatial": 153
+  },
+  "checks": [
+    {
+      "check": "event_reference",
+      "source": "attribution",
+      "records_checked": 1326,
+      "failure_count": 0,
+      "status": "PASS",
+      "note": "Event column=event_id; invalid references=0; null references=0"
+    },
+    {
+      "check": "event_reference",
+      "source": "confidence",
+      "records_checked": 1326,
+      "failure_count": 0,
+      "status": "PASS",
+      "note": "Event column=event_id; invalid references=0; null references=0"
+    },
+    {
+      "check": "event_reference",
+      "source": "evidence_chain",
+      "records_checked": 153,
+      "failure_count": 0,
+      "status": "PASS",
+      "note": "Event column=event_id; invalid references=0; null references=0"
+    },
+    {
+      "check": "event_reference",
+      "source": "geospatial",
+      "records_checked": 153,
+      "failure_count": 0,
+      "status": "PASS",
+      "note": "Event column=event_id; invalid references=0; null references=0"
+    },
+    {
+      "check": "confidence_event_factory_pairs",
+      "source": "confidence",
+      "records_checked": 1326,
+      "failure_count": 0,
+      "status": "PASS",
+      "note": "Confidence event-factory pairs missing from attribution=0"
+    }
+  ],
+  "missing_value_columns": [
+    {
+      "file": "attribution",
+      "column": "wind_speed_mean_mps",
+      "missing_count": 468,
+      "row_count": 1326,
+      "missing_percent": 35.29
+    },
+    {
+      "file": "confidence",
+      "column": "wind_speed_mean_mps",
+      "missing_count": 468,
+      "row_count": 1326,
+      "missing_percent": 35.29
+    },
+    {
+      "file": "confidence",
+      "column": "second_best_score",
+      "missing_count": 51,
+      "row_count": 1326,
+      "missing_percent": 3.85
+    },
+    {
+      "file": "evidence_chain",
+      "column": "wind_speed_mean_mps",
+      "missing_count": 54,
+      "row_count": 153,
+      "missing_percent": 35.29
+    },
+    {
+      "file": "geospatial",
+      "column": "wind_speed_mean_mps",
+      "missing_count": 54,
+      "row_count": 153,
+      "missing_percent": 35.29
+    },
+    {
+      "file": "geospatial",
+      "column": "wind_speed_display",
+      "missing_count": 54,
+      "row_count": 153,
+      "missing_percent": 35.29
+    }
+  ],
+  "limitations": [
+    "PASS means structural consistency only.",
+    "This test does not validate scientific correctness.",
+    "It does not verify that files were generated from the latest inputs.",
+    "Factory/source identity matching depends on available identifiers."
+  ]
+}

@@ -1,0 +1,4 @@
+gap_threshold_minutes,total_observations,eligible_observations,segment_count,large_gap_count,ineligible_observations,eligible_percent
+15,8211,5667,148,144,2544,69.02
+30,8211,5935,118,114,2276,72.28
+60,8211,6687,75,71,1524,81.44

@@ -1,0 +1,38 @@
+{
+  "project": "AIR KAVACH",
+  "dataset": "XKDR Indore Daily Measurements 2024",
+  "generated_at_utc": "2026-10-09T05:25:55.479022+00:00",
+  "input_rows": 5691,
+  "unique_stations": 5,
+  "unique_pollutants": 4,
+  "available_months": [
+    "2024-01",
+    "2024-02",
+    "2024-03",
+    "2024-04",
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-09",
+    "2024-10",
+    "2024-11",
+    "2024-12"
+  ],
+  "low_sample_count_records": 275,
+  "high_daily_mean_records": 9,
+  "records_flagged_for_review": 278,
+  "outputs": {
+    "monthly_trends": "reports/generated/reference_data/monthly_pollution_trends.csv",
+    "station_summary": "reports/generated/reference_data/station_pollution_summary.csv",
+    "coverage": "reports/generated/reference_data/historical_data_coverage.csv",
+    "charts": "reports/generated/reference_data/charts/"
+  },
+  "limitations": [
+    "The source contains daily aggregate observations.",
+    "Calendar coverage does not establish complete daily sampling.",
+    "Low sample count is a provisional review indicator.",
+    "Monthly averages do not establish industrial source attribution.",
+    "Station differences may reflect location, measurement coverage, meteorology, and other sources of pollution."
+  ]
+}
