@@ -1,5 +1,26 @@
 [
   {
+    "job_id": "IMP-20261010022851-089A",
+    "timestamp_utc": "2026-10-10T02:28:51.086236+00:00",
+    "source": "CSV Upload: air_kavach_dummy_air_quality.csv",
+    "data_type": "observed",
+    "region_id": "in-mp-indore",
+    "records_received": 288,
+    "records_accepted": 288,
+    "records_rejected": 0,
+    "validation_errors": {},
+    "status": "completed",
+    "is_test": false,
+    "environment": "production",
+    "details": {
+      "net_inserted_rows": 288,
+      "total_rows_in_store": 8499,
+      "events_detected": 50,
+      "attribution_status": "recomputed_success",
+      "storage_file": "C:\\Users\\ayush\\Desktop\\AIR-KAVACH\\data\\processed\\air_quality\\air_quality.parquet"
+    }
+  },
+  {
     "job_id": "IMP-20261009203134-62F7",
     "timestamp_utc": "2026-10-09T20:31:34.528626+00:00",
     "source": "Unit Test Delhi CSV",
